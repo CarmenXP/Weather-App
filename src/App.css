@@ -1,0 +1,50 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.background{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/cd6c92d4-9684-499e-8693-daacb9d69385/dlxhou-2bebd9f4-ab6e-4401-825b-0751eb23f0ef.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2NkNmM5MmQ0LTk2ODQtNDk5ZS04NjkzLWRhYWNiOWQ2OTM4NVwvZGx4aG91LTJiZWJkOWY0LWFiNmUtNDQwMS04MjViLTA3NTFlYjIzZjBlZi5qcGcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.nu373jVd8bkfkwK7sc7kCDeP-zCX1sJngNWU6Jdug34);
+    background-repeat: no-repeat;
+    background-size:cover;
+
+}
+.content{
+    width: 300px;
+    border: 1px solid 	#afaeae;
+    border-radius: 15px;
+    background-color: rgb(186, 202, 206);
+    opacity: 0.9;
+    padding: 15px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.icon h3{
+    text-align: center;
+}
+h2, h3{
+    margin: 0px;
+}
+ul{
+    padding: 0px;
+}
+li{
+    list-style: none;
+}
+.bx{
+    padding-right: 5px;
+}
+button{
+    padding: 6px 5px;
+    border:none;
+    border-radius: 5px;
+    background-color: #eceaea;
+    margin-top: 10px;
+    cursor: pointer;
+}
