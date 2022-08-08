@@ -48,3 +48,16 @@ button{
     margin-top: 10px;
     cursor: pointer;
 }
+.loading{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(149, 158, 155);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loading p{
+    color: rgb(41, 41, 44);
+    font-size: 50px;
+    font-weight:700;
+}
